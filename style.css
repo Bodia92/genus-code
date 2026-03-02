@@ -212,14 +212,19 @@ h3,
     font-size: clamp(16px, 2vw, 18px);
     font-weight: 300;
     margin-bottom: 50px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 0 0 30px rgba(214, 0, 0, 0.6);
 }
 
 .hero__small-text {
     font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-wrap: balance;
+    font-family: var(--font-title);
     margin-top: 15px;
     opacity: 0.8;
     font-style: italic;
