@@ -222,7 +222,7 @@ h3,
 
 .hero__subtitle {
     font-size: clamp(16px, 2vw, 18px);
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: 50px;
     color: rgba(255, 255, 255, 1);
     max-width: 700px;
@@ -258,10 +258,10 @@ h3,
 }
 
 .hero__marquee-content span {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing: 2px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
     margin-right: 40px;
 }
 
@@ -300,8 +300,11 @@ h3,
     }
 }
 .marquee-group {
+    font-weight: 700;
+    font-size: 16px;
     display: flex;
     flex-shrink: 0;
+    color: var(--white);
     align-items: center;
 }
 @keyframes marquee-scroll {
